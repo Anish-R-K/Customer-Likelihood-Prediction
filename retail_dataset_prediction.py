@@ -6,11 +6,11 @@ import warnings
 warnings.filterwarnings("ignore")
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
-df1 = pd.read_excel(r"C:\Users\Aswathy\Desktop\myenv\P52 - Retail Ecommerce\Retail Sector Analysis using RFM\no of customer per month.xlsx")
-salepermonth = pd.read_csv(r"C:\Users\Aswathy\Desktop\myenv\P52 - Retail Ecommerce\Retail Sector Analysis using RFM\salepermonth.csv")
-df = pd.read_csv(r"C:\Users\Aswathy\Desktop\myenv\P52 - Retail Ecommerce\Retail Sector Analysis using RFM\df_rfm.csv")
-retail = pd.read_excel(r"C:\Users\Aswathy\Desktop\myenv\P52 - Retail Ecommerce\Sample_data.xlsx")
-df2 = pd.read_csv(r"C:\Users\Aswathy\Desktop\myenv\P52 - Retail Ecommerce\ol111.csv")
+df1 = pd.read_excel(r"no of customer per month.xlsx")
+salepermonth = pd.read_csv(r"salepermonth.csv")
+df = pd.read_csv(r"df_rfm.csv")
+retail = pd.read_excel(r"Sample_data.xlsx")
+df2 = pd.read_csv(r"ol111.csv")
 
 st.title('Customer Likelihood Prediction Analysis')
 st.write('Project 52 - Group 3')
