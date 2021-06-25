@@ -6,10 +6,10 @@ import warnings
 warnings.filterwarnings("ignore")
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
-df1 = pd.read_excel(r"no of customer per month.xlsx", engine='openpyxl')
+df1 = pd.read_excel("no of customer per month.xlsx")
 salepermonth = pd.read_csv(r"salepermonth.csv")
 df = pd.read_csv(r"df_rfm.csv")
-retail = pd.read_excel(r"Sample_data.xlsx", engine='openpyxl')
+retail = pd.read_excel("Sample_data.xlsx")
 df2 = pd.read_csv(r"ol111.csv")
 
 st.title('Customer Likelihood Prediction Analysis')
